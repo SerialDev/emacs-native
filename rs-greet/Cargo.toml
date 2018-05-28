@@ -1,0 +1,17 @@
+[package]
+name = "greet"
+version = "0.1.0"
+authors = ["serialdev"]
+
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+libc = "0.2.34"
+emacs = { version = "0.5.1" }
+libloading = "0.4.3"
+lazy_static = "1.0.0"
+
+[dev-dependencies]
+emacs-rs-module = { version = "0.5.0" }
